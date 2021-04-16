@@ -7,13 +7,13 @@
   <form action="/score" method="POST" class="form-inline">
   <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
   <%= hidden_field_tag :letters, @letters %>
-  <div>
-   <label>What is the longest word you can find?</label>
-    <div>
+  <div class="mt-4">
+   <p>What is the longest word you can find?</p>
+    <div class="mt-2">
       <input type="text" name="word">
     </div>
     <div class="mt-2">
-      <input type="submit" value="Submit" class="btn btn-dark">
+      <input type="submit" value="Submit" class="button">
     </div>
   </div>
   </form>

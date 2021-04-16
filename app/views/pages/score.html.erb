@@ -9,6 +9,7 @@
   <% else %>
     <p>Sorry but <strong><%= @word %></strong> can't be built out of <%= @letters.join(", ") %>.</p>
   <% end %>
-</div>
 
-<%= link_to "Play again", new_path, :class => "btn btn-dark" %>
+
+<%= link_to "Play again", new_path, :class => "button" %>
+</div>
