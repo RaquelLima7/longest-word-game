@@ -1,4 +1,4 @@
-<div>
+<div class="container mt-5 pt-5" align="center">
     <h1>Result</h1>
     <% if @words_include %>
       <% if @english_word %>
@@ -11,4 +11,4 @@
   <% end %>
 </div>
 
-<%= link_to "Play again", new_path %>
+<%= link_to "Play again", new_path, :class => "btn btn-dark" %>
