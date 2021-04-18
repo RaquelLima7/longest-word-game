@@ -1,4 +1,4 @@
-# Longest Word Game is a web application made with Ruby on Rails 💎 and Bootstrap. 
+# Longest Word Game is a web application made with Ruby on Rails 💎 and API Wagon Dictionary.
 
 <br>
 
