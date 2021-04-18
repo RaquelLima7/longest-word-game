@@ -1,24 +1,21 @@
-# README
+# Longest Word Game is a web application made with Ruby on Rails 💎 and Bootstrap. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## It's given a random set of letters.
+## You have to enter the longest english word you can find using only letters in the grid.
 
-Things you may want to cover:
+<br>
 
-* Ruby version
+### There are three scenarios:
 
-* System dependencies
+1. The word can’t be built out of the original grid.
+   <img src="noletters.gif" alt="noletters">
 
-* Configuration
+   <br>
 
-* Database creation
+2. The word is valid according to the grid, but is not a valid English word.
+   <img src="noenglishword.gif" alt="noenglishword">
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+   <br>
+   
+3. The word is valid according to the grid and is an English word.
+   <img src="englishword.gif" alt="englishword">
