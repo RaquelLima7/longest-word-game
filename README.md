@@ -2,7 +2,7 @@
 
 <br>
 
-## It's given a random set of letters. You have to enter the longest english word you can find using only letters in the grid.
+## It's given a random set of letters. You have to enter the english word only using only letters in the grid.
 
 <br>
 
